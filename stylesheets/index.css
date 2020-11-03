@@ -2,7 +2,7 @@
   display: block;
   position: relative;
   width: 900px;
-  margin: 0 auto 20;
+  margin: 0 auto 20px;
   background: white;
   border: 1px solid #ddd;
   border-radius: 3px;
@@ -19,7 +19,7 @@
 }
 .index_item:nth-last-of-type(2){
   margin-top: 70px;
-  margin-left: 400px;
+  /* margin-left: 400px; */
 }
 
 .index_item h1{
