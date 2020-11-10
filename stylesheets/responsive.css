@@ -23,8 +23,10 @@ article li{font-size: 15px;line-height: 24px;}
 article q{font-size: 15px; line-height: 24px;}
 article img + p { margin-top: 30px; margin-bottom: 30px;}
 article img {margin-top: 30px;margin-bottom: 30px;}
-
 }
+
+
+
 @media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (orientation: landscape) {
   /* iPhone Landscape */
 	article > * { width: 500px; }

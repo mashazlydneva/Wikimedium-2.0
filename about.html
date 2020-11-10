@@ -6,6 +6,8 @@
     <link rel="icon" type="image/x-icon" href="http:images/favicon.ico" />
     <link rel="icon" type="image/png" href="http:images/favicon.png" />
     <link rel="stylesheet" href="stylesheets/style.css">
+    <link rel="stylesheet" href="stylesheets/responsive.css">
+
     <title></title>
     <style media="screen">
       body {
@@ -16,7 +18,7 @@
         display: block;
         position: relative;
       }
-      body::before {
+      /* body::before {
         content: "";
         position: absolute;
         left: 0;
@@ -26,7 +28,7 @@
         height: 100%;
         display:block;
         opacity: .2;
-      }
+      } */
       html {
         background: #bbb;
         position: relative;
@@ -101,6 +103,28 @@
           width: 720px;
           padding-top: 0px;
         }
+        @media all and (min-device-width: 320px) and (max-device-width: 568px) and (orientation: portrait) {
+        body{height: 1700px;}
+
+
+        section img{margin-top: 150px; width: 320px;}
+        section h1{width: 300px; font-size: 19px;line-height: 20px;}
+        section p{width: 300px; font-size: 15px; line-height: 20px;}
+        section img{margin-top: 250px; width: 320px;margin-right: 200px;}
+        .bottom_block p{width: 300px;font-size: 15px;line-height: 20px;}
+        .bottom_block h1{width: 250px; font-size: 19px;line-height: 20px;}
+        .bottom_block a.btn {padding:  15px 20px;margin-top: 25px;}
+        .bottom_block a.btn-black {padding: 15px 20px;margin: 20px 5px 0px; margin-top: 20px;}
+        div.cite { height: 100px;}
+        .cite p{margin-left: 500px;}
+        .cite h1{margin-left: 500px;}
+        section.two{height: 200px; width: 320px;}
+        section div img {width: 320px;}
+        section.two h1 {margin: 0px 0px 0px 0px; margin-right: 60px;}
+        section.two p {margin: 0px 0px 0px 0px;}
+        section.two div img{margin-top: 150px; width: 320px;}
+        }
+
 
     </style>
   </head>
